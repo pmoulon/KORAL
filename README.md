@@ -27,7 +27,7 @@ number of such scale levels used, image is a pointer to
 uint8_t (grayscale) image data, and KFAST_threshold
 is the threshold supplied to the KFAST feature detector.
 
-After this call, keypoints are avaiable in a vector at 
+After this call, keypoints are available in a vector at 
 koral.kps, while descriptors are available at
 koral.desc.
 
@@ -46,7 +46,7 @@ SSE angle weight detector.
 All components have been written and carefully tuned by the author
 for maximum performance and have no external dependencies. Some have
 been modified for integration into KORAL,
-but the original standalone projects are all availble on
+but the original standalone projects are all available on
 the author's GitHub (https://github.com/komrad36).
 
 These individual components are:
